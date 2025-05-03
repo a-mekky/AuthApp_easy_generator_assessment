@@ -1,0 +1,103 @@
+# ============================
+# Build output
+# ============================
+/backend-auth/dist/
+/backend-auth/build/
+/frontend-auth/dist/
+/frontend-auth/build/
+
+# ============================
+# Dependency directories
+# ============================
+/backend-auth/node_modules/
+/frontend-auth/node_modules/
+/node_modules/
+
+# ============================
+# Runtime data
+# ============================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ============================
+# Logs
+# ============================
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ============================
+# Coverage & Test output
+# ============================
+/coverage/
+/.nyc_output/
+
+# ============================
+# Environment files
+# ============================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test.local
+.env.production
+.env.production.local
+
+# ============================
+# OS-generated files
+# ============================
+.DS_Store
+.vscode
+.editorconfig
+.prettierrc.json
+.prettierrc
+# ============================
+# Editor & IDE settings
+# ============================
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs (IntelliJ, WebStorm, etc.)
+.idea/
+
+# Eclipse, C9, etc.
+.project
+.classpath
+.c9/
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Sublime Text
+*.sublime-workspace
+
+# ============================
+# Temporary files
+# ============================
+.temp/
+.tmp/
+*.tsbuildinfo
+
+# ============================
+# Cypress recordings
+# ============================
+/cypress/videos/
+/cypress/screenshots/
+
+# ============================
+# Node.js diagnostic reports
+# ============================
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
