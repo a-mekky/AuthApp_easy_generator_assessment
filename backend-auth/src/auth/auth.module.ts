@@ -23,7 +23,6 @@ import { TokenService } from 'src/common/utils/token.utils';
       inject: [ConfigService],
     }),
     ConfigModule,
-    TokenService
   ],
   controllers: [AuthController],
   providers: [AuthService, JwtStrategy, TokenService],
